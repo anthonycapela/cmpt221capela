@@ -10,15 +10,15 @@ from db.schema.user import User
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('index.html',methods= ('GET', 'POST'))
 
 @app.route('/signup')
 def signup():
-    return render_template('signup.html')
+    return render_template('signup.html', methods= ('GET', 'POST'))
 
 @app.route('/login')
 def login():
-    return render_template('login.html')
+    return render_template('login.html', methods=('GET', 'POST'))
 
 @app.route('/users')
 def users():
