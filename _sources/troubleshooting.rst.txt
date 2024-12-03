@@ -1,0 +1,19 @@
+.. _`Troubleshooting`:
+
+Troubleshooting
+===============
+This section describes some common issues that can arise and possible solutions.
+
+Issue #1
+--------
+In the first lab, i couldnt figure out how to open the terminal
+I discovered that there is a new terminal option in the top bar of vscode
+
+Issue #2
+--------
+In the third lab, I couldnt get my virtual environment working 
+I restarted and got it working the second time
+Issue #3
+--------
+In lab 6, my website would not link the pages to each other and showed many errors
+I unfortunately never found a solution for this bug
